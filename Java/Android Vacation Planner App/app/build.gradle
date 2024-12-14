@@ -1,0 +1,43 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.example.d308_vacation_planner'
+    compileSdkVersion 29
+
+    defaultConfig {
+        applicationId "com.example.d308_vacation_planner"
+        minSdkVersion 26
+        targetSdkVersion 29
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+
+    implementation libs.appcompat.v130
+    implementation libs.material.v110
+    implementation libs.constraintlayout
+    testImplementation libs.junit
+    androidTestImplementation libs.junit.v111
+    androidTestImplementation libs.espresso.core.v320
+
+    implementation libs.room.runtime.v230
+    annotationProcessor libs.room.compiler.v230
+
+}
