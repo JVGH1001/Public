@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.params=runwayNumber
+comment0.target=Runway(int)
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ Runway\r\n
+comment1.params=flight
+comment1.target=void\ setFlight(Flight)
+comment1.text=\r\n\ Sets\ a\ flight\ to\ the\ runway\ and\ makes\ runway\ unavailable.\r\n
+comment2.params=
+comment2.target=void\ unsetFlight()
+comment2.text=\r\n\ Removes\ flight\ from\ runway\ and\ makes\ runway\ available.\r\n
+comment3.params=flight
+comment3.target=void\ remove(Flight)
+comment3.text=\r\n\ Removes\ flight\ from\ ArrayList\ flights.\ May\ not\ be\ used\ recheck.\r\n
+comment4.params=
+comment4.target=boolean\ isClear()
+comment4.text=\r\n\ States\ if\ runways\ is\ available\ for\ flights\ using\ MAX_CAPACITY.\r\n
+comment5.params=
+comment5.target=int\ getRunwayNumber()
+comment5.text=\r\n\ Returns\ the\ Runway\ number.\r\n
+comment6.params=
+comment6.target=boolean\ getRunwayAvailability()
+comment6.text=\r\n\ Accessor\ method\ to\ return\ gate\ availability.\r\n
+comment7.params=
+comment7.target=Flight\ getFlight()
+comment7.text=\r\n\ Gets\ flight.\r\n
+numComments=8

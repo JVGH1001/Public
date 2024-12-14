@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=
+comment0.target=City()
+comment0.text=\r\n\ Constructor\ for\ City\ sets\ up\ the\ list\ of\ City.\r\n
+comment1.params=
+comment1.target=java.lang.String\ genCity()
+comment1.text=\r\n\ Returns\ a\ random\ city\ name\ based\ on\ a\ random\ number.\r\n
+numComments=2

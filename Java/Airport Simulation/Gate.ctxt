@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.params=gateNumber
+comment0.target=Gate(int)
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ Gate.\r\n
+comment1.params=flight
+comment1.target=void\ setFlight(Flight)
+comment1.text=\r\n\ Assigns\ a\ Flight\ to\ a\ gate\ and\ makes\ gate\ unavailable.\r\n
+comment2.params=
+comment2.target=void\ unsetFlight()
+comment2.text=\r\n\ Removes\ a\ Flight\ from\ the\ gate\ and\ makes\ gate\ available.\r\n
+comment3.params=
+comment3.target=Flight\ getFlight()
+comment3.text=\r\n\ Accessor\ method\ to\ get\ Flight\ from\ gate.\r\n
+comment4.params=
+comment4.target=int\ getGateNumber()
+comment4.text=\r\n\ Accessor\ method\ to\ return\ gate\ number.\r\n
+comment5.params=
+comment5.target=boolean\ getGateAvailability()
+comment5.text=\r\n\ Accessor\ method\ to\ return\ gate\ availability.\r\n
+comment6.params=gateAvailability
+comment6.target=void\ setGateAvailability(boolean)
+comment6.text=\r\n\ Mutator\ method\ to\ assign\ gateAvailabiliy\ to\ true\ or\ false.\r\n
+numComments=7

@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=tickLoop
+comment0.target=SettingPan(TickLoop)
+comment0.text=\r\n\ Constructor\ for\ SettingPan.\r\n
+comment1.params=
+comment1.target=void\ makePanel()
+comment1.text=\r\n\ Actually\ creates\ slider.\ Sets\ it\ in\ FlowLayout\ and\ tells\ the\ slider\ what\ it\ will\ change.\r\n
+comment2.params=e
+comment2.target=void\ stateChanged(javax.swing.event.ChangeEvent)
+numComments=3

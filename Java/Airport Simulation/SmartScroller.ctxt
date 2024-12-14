@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.params=scrollPane
+comment0.target=SmartScroller(javax.swing.JScrollPane)
+comment0.text=\r\n\ \ Convenience\ constructor.\r\n\ \ Scroll\ direction\ is\ VERTICAL\ and\ viewport\ position\ is\ at\ the\ END.\r\n\r\n\ \ @param\ scrollPane\ the\ scroll\ pane\ to\ monitor\r\n
+comment1.params=scrollPane\ viewportPosition
+comment1.target=SmartScroller(javax.swing.JScrollPane,\ int)
+comment1.text=\r\n\ \ Convenience\ constructor.\r\n\ \ Scroll\ direction\ is\ VERTICAL.\r\n\r\n\ \ @param\ scrollPane\ the\ scroll\ pane\ to\ monitor\r\n\ \ @param\ viewportPosition\ valid\ values\ are\ START\ and\ END\r\n
+comment2.params=scrollPane\ scrollDirection\ viewportPosition
+comment2.target=SmartScroller(javax.swing.JScrollPane,\ int,\ int)
+comment2.text=\r\n\ \ Specify\ how\ the\ SmartScroller\ will\ function.\r\n\r\n\ \ @param\ scrollPane\ the\ scroll\ pane\ to\ monitor\r\n\ \ @param\ scrollDirection\ indicates\ which\ JScrollBar\ to\ monitor.\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ Valid\ values\ are\ HORIZONTAL\ and\ VERTICAL.\r\n\ \ @param\ viewportPosition\ indicates\ where\ the\ viewport\ will\ normally\ be\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ positioned\ as\ data\ is\ added.\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ Valid\ values\ are\ START\ and\ END\r\n
+comment3.params=e
+comment3.target=void\ adjustmentValueChanged(java.awt.event.AdjustmentEvent)
+comment4.params=
+comment4.target=void\ run()
+comment5.params=e
+comment5.target=void\ checkScrollBar(java.awt.event.AdjustmentEvent)
+comment5.text=\r\n\ \ Analyze\ every\ adjustment\ event\ to\ determine\ when\ the\ viewport\r\n\ \ needs\ to\ be\ repositioned.\r\n
+numComments=6

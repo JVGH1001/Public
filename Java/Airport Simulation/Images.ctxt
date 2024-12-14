@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Images()
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ Images\r\n
+comment1.params=
+comment1.target=void\ loadImages()
+comment1.text=\r\n\ Loads\ Images\ onto\ screen\r\n
+comment2.params=g
+comment2.target=void\ paint(java.awt.Graphics)
+comment3.params=g
+comment3.target=void\ drawFlights(java.awt.Graphics)
+comment4.params=f
+comment4.target=void\ addFlight(Flight)
+comment5.params=f
+comment5.target=void\ removeFlight(Flight)
+numComments=6
